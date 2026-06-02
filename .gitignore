@@ -7,5 +7,9 @@ venv/
 allure-results/
 __pycache__/
 .pytest_cache/
+
+# Ignora todos os screenshots gerados durante os testes
 utils/screenshots/*
+
+# Mantém a pasta no repositório mesmo vazia
 !utils/screenshots/.gitkeep
