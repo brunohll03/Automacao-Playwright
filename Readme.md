@@ -138,7 +138,7 @@ pip install -r requirements.txt
 ```
 Instale os navegadores do Playwright:
 ```bash
-playwright install
+pip install playwright
 ```
 Para executar os testes:
 ```bash
