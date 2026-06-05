@@ -2,11 +2,20 @@
 # Lista todas as dependências do projeto Python para que o ambiente de testes
 # possa ser configurado facilmente...
 
-pytest #→ Framework para execução de testes.
-pytest-playwright #→ Integração do Playwright com o Pytest.
+pytest #→ Framework para execução de testes. Pytest é o framework que organiza, executa e valida os testes automatizados em Python.
+#Ele não faz os cliques na tela (isso é função do Playwright); ele é o "gerente da execução", responsável por descobrir os testes, rodá-los e informar os resultados.
+
+pytest-playwright #→ Integração do Playwright com o Pytest.Playwright é uma ferramenta que automatiza navegadores, simulando as ações de um usuário real em aplicações web.
+#Enquanto o Pytest gerencia os testes, o Playwright é quem efetivamente abre o navegador e executa as interações na interface da aplicação.
+
 allure-pytest #→ Integração do Allure para geração de relatórios.
+
 pytest-bdd #→ Adiciona suporte à linguagem BDD ao teste
+
 pytest-rerunfailures #→ Permite reexecutar testes que falharam.]
+
 pytest-xdist #→ Permite a execução de testes em paralelo.
+
 faker #→ Biblioteca para geração de dados falsos, útil para testes.
+
 locust #→ Ferramenta de teste de carga para simular múltiplos usuários.
