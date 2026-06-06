@@ -2,6 +2,8 @@
 # Lista todas as dependências do projeto Python para que o ambiente de testes
 # possa ser configurado facilmente...
 
+playwright #biblioteca para teste de software, mais focada em teste de interface grafica, ou seja, teste de front-end
+
 pytest #→ Framework para execução de testes. Pytest é o framework que organiza, executa e valida os testes automatizados em Python.
 #Ele não faz os cliques na tela (isso é função do Playwright); ele é o "gerente da execução", responsável por descobrir os testes, rodá-los e informar os resultados.
 
