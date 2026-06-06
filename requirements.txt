@@ -2,6 +2,9 @@
 # Lista todas as dependências do projeto Python para que o ambiente de testes
 # possa ser configurado facilmente...
 
+# pip install playwright → instala a "ferramenta".
+# playwright install → instala os "navegadores" que a ferramenta vai controlar.
+
 playwright #biblioteca para teste de software, mais focada em teste de interface grafica, ou seja, teste de front-end
 
 pytest #→ Framework para execução de testes. Pytest é o framework que organiza, executa e valida os testes automatizados em Python.
